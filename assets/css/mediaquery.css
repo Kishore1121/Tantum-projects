@@ -1,0 +1,183 @@
+@media (max-width: 1366px){
+    
+}
+@media (max-width: 1200px){
+    .banner-main .banner .banner-left .banner__image{
+        background-position:  50% 80%;
+        background-size: 40% auto;
+    }
+    .banner-main .banner .banner-right .banner__cont h1{
+        font-size: 45px;
+    }
+    .banner-main .banner .banner-right .banner__cont p{
+        font-size: 24px;
+    }
+}
+@media (max-width: 996px){
+    .banner-main .banner .banner-left .banner__image{
+        background-position:  50% 80%;
+        background-size: 40% auto;
+    }
+    .banner-main .banner .banner-right .banner__cont h1{
+        font-size: 40px;
+    }
+    .banner-main .banner .banner-right .banner__cont p{
+        font-size: 22px;
+    }
+    .tantum .tantum-header .header-left h1{
+        font-size: 24px;
+        padding-bottom: 1%;
+    }
+    .tantum .tantum-header .header-right nav ul li a{
+       font-size: 12px;
+      }
+      .tantum .tantum-header .header-left .header__logo{
+        width: 60px;
+        height: 60px;
+      }
+      .tantum .tantum-header .header-left .header__logo h1{
+        font-size: 40px;
+     }
+}
+@media (max-width: 768px){
+    .banner-main .banner .banner-left .banner__image{
+        background-position:  50% 80%;
+        background-size: 60% auto;
+    }
+    .banner-main .banner .banner-right .banner__cont h1{
+        font-size: 40px;
+    }
+    .banner-main .banner .banner-right .banner__cont p{
+        font-size: 22px;
+    }
+    .tantum .tantum-header .header-left{
+        width: 60%;
+    }
+    .tantum .tantum-header .header-left h1{
+        font-size: 24px;
+        padding-bottom: 1%;
+    }
+    .tantum .tantum-header{
+        position: relative;
+    }
+    .menu{
+        display: block;
+    }
+    .tantum .tantum-header .header-right{
+        width: 100%;
+        position: absolute;
+        z-index: 8;
+        top: 100%;
+        left: 100%;
+        transition: 0.5s;
+    }
+    .tantum .tantum-header .header-right.active{
+        left: 0%;
+    }
+    .tantum .tantum-header .header-right nav ul{
+        display: block;
+        width: 100%;
+        background: #fff;
+        text-align: left;
+    }
+    .tantum .tantum-header .header-right nav ul li a{
+       font-size: 12px;
+       padding: 22px 20px;
+      }
+      .tantum .tantum-header .header-left .header__logo{
+        width: 60px;
+        height: 60px;
+      }
+      .tantum .tantum-header .header-left .header__logo h1{
+        font-size: 40px;
+     }
+     .banner-main {
+        height: 50vh;
+      }
+      .banner-main .banner::before {
+        height: 40vh;
+      }
+      .banner-main .banner::after {
+        height: 42vh;
+      }
+      .banner-main .banner .banner-left {
+        width: 40%;
+        height: 50vh;
+      }
+      .banner-main .banner .banner-right {
+        width: 60%;
+      }
+      
+      .banner-main .banner .banner-right .banner__cont {
+        width: 100%;
+      }
+}
+@media (max-width: 576px){
+    .banner-main .banner .banner-left .banner__image{
+       /* display: none; */
+    }
+    .banner-main .banner .banner-right .banner__cont h1{
+        font-size: 36px;
+    }
+    .banner-main .banner .banner-right .banner__cont p{
+        font-size: 20px;
+    }
+    .tantum .tantum-header .header-left{
+        width: 70%;
+    }
+    .tantum .tantum-header .header-left h1{
+        font-size: 20px;
+        padding-bottom: 1%;
+    }
+    .tantum .tantum-header{
+        position: relative;
+    }
+    .tantum .tantum-header .header-right{
+        width: 100%;
+        position: absolute;
+        z-index: 8;
+        top: 100%;
+        left: 100%;
+        transition: 0.5s;
+    }
+    .tantum .tantum-header .header-right.active{
+        left: 0%;
+    }
+    .tantum .tantum-header .header-right nav ul{
+        display: block;
+        width: 100%;
+        background: #fff;
+        text-align: left;
+    }
+    .tantum .tantum-header .header-right nav ul li a{
+       font-size: 12px;
+       padding: 22px 20px;
+      }
+      .tantum .tantum-header .header-left .header__logo{
+        width: 60px;
+        height: 60px;
+      }
+      .tantum .tantum-header .header-left .header__logo h1{
+        font-size: 36px;
+     }
+     .banner-main {
+        height: 50vh;
+      }
+      .banner-main .banner::before {
+        height: 40vh;
+      }
+      .banner-main .banner::after {
+        height: 42vh;
+      }
+      .banner-main .banner .banner-left {
+        width: 0%;
+       
+      }
+      .banner-main .banner .banner-right {
+        width: 100%;
+      }
+      
+      .banner-main .banner .banner-right .banner__cont {
+        width: 100%;
+      }
+}

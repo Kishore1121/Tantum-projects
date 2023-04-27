@@ -1,0 +1,212 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.tantum {
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+  position: relative;
+}
+.tantum .tantum-header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  z-index: 9;
+  padding: 0 5%;
+}
+.tantum .tantum-header .header-left {
+  width: 40%;
+  height: auto;
+  display: flex;
+  align-items: flex-end;
+}
+.tantum .tantum-header .header-left .header__logo {
+  width: 80px;
+  height: 80px;
+  background-color: #3ec1b9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tantum .tantum-header .header-left .header__logo h1 {
+  color: #fff;
+  font-size: 50px;
+}
+.tantum .tantum-header .header-left h1 {
+  font-size: 28px;
+  text-transform: uppercase;
+  margin-left: 4%;
+  font-weight: 500;
+  color: #3ec1b9;
+  padding-bottom: 2%;
+}
+.tantum .tantum-header .header-right {
+  width: 50%;
+  height: auto;
+}
+.tantum .tantum-header .header-right nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 2%;
+}
+.tantum .tantum-header .header-right nav ul li a {
+  display: block;
+  padding: 0px 10px;
+  text-transform: uppercase;
+}
+.menu {
+  display: none;
+  align-self: center;
+}
+#hamburger {
+  width: 40px;
+  height: 25px;
+  position: relative;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+  z-index: 10;
+}
+
+#hamburger span {
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background: #000;
+  border-radius: 1px;
+  opacity: 1;
+  left: 0;
+  transition: 0.25s ease-in-out;
+}
+
+#hamburger span:nth-child(1) {
+  top: 0px;
+  transform-origin: left center;
+}
+
+#hamburger span:nth-child(2) {
+  top: 15px;
+  transform-origin: left center;
+}
+
+#hamburger span:nth-child(3) {
+  top: 30px;
+  transform-origin: left center;
+}
+
+#hamburger.open span:nth-child(1) {
+  transform: rotate(45deg);
+  top: -3px;
+  left: 0px;
+}
+
+#hamburger.open span:nth-child(2) {
+  width: 0%;
+  opacity: 0;
+}
+
+#hamburger.open span:nth-child(3) {
+  transform: rotate(-45deg);
+  top: 26px;
+  left: 0px;
+}
+.banner-main {
+  width: 100%;
+  height: 100vh;
+}
+.banner-main .banner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.banner-main .banner::before {
+  content: "";
+  display: block;
+  width: 90vw;
+  height: 90vh;
+  background-color: #efefefed;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 2;
+}
+.banner-main .banner::after {
+  content: "";
+  display: block;
+  width: 90vw;
+  height: 70vh;
+  background-color: #fadc04;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 2;
+}
+.banner-main .banner .banner-left {
+  width: 50%;
+  height: 100vh;
+  z-index: 3;
+  position: relative;
+}
+.banner-main .banner .banner-left .banner__image {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-image: url(../images/bommerrang.png);
+  background-repeat: no-repeat;
+  background-position: 50% 85%;
+  background-size: 40% auto;
+}
+
+.banner-main .banner .banner-right {
+  width: 50%;
+  height: auto;
+  z-index: 3;
+}
+.banner-main .banner .banner-right .banner__cont {
+  width: 80%;
+  height: auto;
+  background-color: #fff;
+  margin-left: auto;
+  padding: 5%;
+}
+.banner-main .banner .banner-right .banner__cont h1 {
+  font-size: 50px;
+  color: #3ec1b9;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+.banner-main .banner .banner-right .banner__cont p {
+  font-size: 26px;
+}

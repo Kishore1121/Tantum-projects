@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/mediaquery.css">
+    <title>Tantum Projects</title>
+</head>
+<body>
+    <div class="tantum">
+        <!-- Header Section -->
+        <header class="tantum-header">
+            <div class="header-left">
+                <div class="header__logo">
+                    <h1>T</h1>
+                </div>
+                <h1>Tantum Projects</h1>
+            </div>
+            <div class="header-right">
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">What we do</a></li>
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="#">blog</a></li>
+                        <li><a href="#">contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="menu" id="hamburger">
+                <span class="menu-line"></span>
+                <span class="menu-line"></span>
+                <span class="menu-line"></span>
+            </div>
+        </header>
+        <!-- Banner section -->
+        <section class="banner-main">
+            <div class="banner">
+                <div class="banner-left">
+                    <div class="banner__image">
+                        <!-- <img src="assets/images/bommerrang.png" alt="Boommerang"> -->
+                    </div>
+                </div>
+                <div class="banner-right">
+                    <div class="banner__cont">
+                        <h1>Throw your First Boomerang Today, and Prepare to Catch the Profits</h1>
+                        <p>Exclusive properties deals that are not are available through traditional means. Unlock</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+<script>
+    const menu = document.querySelector('.menu')
+    const menuList = document.querySelector('.header-right')
+    menu.addEventListener('click',()=>{
+        menu.classList.toggle("open")
+        menuList.classList.toggle("active")
+
+    })
+</script>
+</html>
